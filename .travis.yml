@@ -1,0 +1,7 @@
+linguagem: python
+python:
+- "3,4"
+before_script:
+- cd src
+roteiro:
+- python testes.py
