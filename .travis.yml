@@ -1,7 +1,7 @@
-linguagem : python
-python :
-- "3,4"
-before_script :
+language: python
+python:
+- "3.4”
+before_script:
 - cd src
-roteiro :
+script:
 - python testes.py
